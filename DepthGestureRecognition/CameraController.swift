@@ -10,7 +10,6 @@ import Vision
 
 protocol CaptureDataReceiver: AnyObject {
     func onNewData(capturedData: CameraCapturedData)
-    func onNewPhotoData(capturedData: CameraCapturedData)
 }
 
 protocol GestureRecognitionDelegate: AnyObject {
@@ -309,6 +308,6 @@ extension CameraController: AVCapturePhotoCaptureDelegate {
                                       cameraIntrinsics: cameraCalibrationData.intrinsicMatrix,
                                       cameraReferenceDimensions: cameraCalibrationData.intrinsicMatrixReferenceDimensions)
         
-        delegate?.onNewPhotoData(capturedData: data)
+       // delegate?.onNewPhotoData(capturedData: data)
     }
 }
