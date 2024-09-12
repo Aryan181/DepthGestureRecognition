@@ -2,6 +2,10 @@
 
 Access the LiDAR camera on supporting devices to capture precise depth data and detect hand gestures.
 
+## Example demonstration 
+
+https://github.com/user-attachments/assets/282f34d1-40bd-407f-adfb-8e3b8da77985
+
 ## Overview
 
 This sample code project demonstrates how to capture and render depth data from the LiDAR camera, as well as detect hand gestures using Vision framework. The app operates in two modes:
