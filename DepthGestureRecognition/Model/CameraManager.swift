@@ -71,16 +71,6 @@ class CameraManager: ObservableObject, CaptureDataReceiver, GestureRecognitionDe
         waitingForCapture = false
     }
     
-    func onNewPhotoData(capturedData: CameraCapturedData) {
-        // Because the views hold a reference to `capturedData`, the app updates each texture separately.
-        self.capturedData.depth = capturedData.depth
-        self.capturedData.colorY = capturedData.colorY
-        self.capturedData.colorCbCr = capturedData.colorCbCr
-        self.capturedData.cameraIntrinsics = capturedData.cameraIntrinsics
-        self.capturedData.cameraReferenceDimensions = capturedData.cameraReferenceDimensions
-        waitingForCapture = false
-        processingCapturedResult = true
-    }
     
     func onNewData(capturedData: CameraCapturedData) {
         DispatchQueue.main.async {
