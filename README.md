@@ -19,6 +19,14 @@ This sample code project demonstrates how to capture and render depth data from 
 
 In both modes, the app provides Metal-based visualizations of the depth and image data. Additionally, it now includes hand gesture recognition capabilities.
 
+
+<img width="631" alt="image" src="https://github.com/user-attachments/assets/a2e26099-7dc9-45ee-9c11-b5214bf6ab40">
+
+<img width="858" alt="image" src="https://github.com/user-attachments/assets/ef02c205-e4e9-4be2-abc2-c222f7537356">
+
+<img width="617" alt="image" src="https://github.com/user-attachments/assets/4b84a379-f47d-4a6f-ad64-2d265b553528">
+
+
 ## New Features
 
 - Hand pose detection using Vision framework
