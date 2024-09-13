@@ -8,6 +8,10 @@ https://github.com/user-attachments/assets/282f34d1-40bd-407f-adfb-8e3b8da77985
 
 ## Overview
 
+
+<img width="631" alt="image" src="https://github.com/user-attachments/assets/3267489c-79ea-4b93-8d46-eacab252c1be">
+
+
 This sample code project demonstrates how to capture and render depth data from the LiDAR camera, as well as detect hand gestures using Vision framework. The app operates in two modes:
 
 1. Streaming mode: Captures synchronized video and depth data.
